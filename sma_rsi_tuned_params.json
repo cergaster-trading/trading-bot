@@ -1,0 +1,26 @@
+{
+  "TSLA": {
+    "sma_period": 12,
+    "rsi_period": 37,
+    "rsi_buy": 23,
+    "rsi_sell": 79
+  },
+  "NVDA": {
+    "sma_period": 35,
+    "rsi_period": 35,
+    "rsi_buy": 40,
+    "rsi_sell": 77
+  },
+  "COIN": {
+    "sma_period": 12,
+    "rsi_period": 34,
+    "rsi_buy": 39,
+    "rsi_sell": 60
+  },
+  "PLTR": {
+    "sma_period": 40,
+    "rsi_period": 26,
+    "rsi_buy": 34,
+    "rsi_sell": 62
+  }
+}

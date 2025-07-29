@@ -1,0 +1,19 @@
+# Ignore API keys and sensitive files
+.env
+*.env
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore IDE settings
+.vscode/
+.idea/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db

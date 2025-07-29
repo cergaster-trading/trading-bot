@@ -1,0 +1,7 @@
+{
+  "fast": 27,
+  "slow": 36,
+  "rsi_period": 9,
+  "rsi_buy_max": 80,
+  "rsi_sell_min": 45
+}

@@ -1,0 +1,9 @@
+{
+  "symbol": "TSLA",
+  "strategy": "ema_crossover",
+  "best_params": {
+    "fast_ema": 29,
+    "slow_ema": 68
+  },
+  "best_value": 100000.0
+}

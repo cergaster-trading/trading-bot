@@ -1,0 +1,112 @@
+{
+  "TSLA": {
+    "strategy": "ensemble",
+    "initial_cash": 17500.0,
+    "enabled": true,
+    "interval_minutes": 3,
+
+    "ema_crossover_enabled": true,
+    "ema_crossover_fast": 17,
+    "ema_crossover_slow": 23,
+    "ema_crossover_weight": 0.1667,
+
+    "macd_enabled": true,
+    "macd_weight": 0.1667,
+
+    "rsi_enabled": true,
+    "rsi_weight": 0.1667,
+
+    "bollinger_enabled": true,
+    "bollinger_weight": 0.1667,
+
+    "adx_di_enabled": true,
+    "adx_di_weight": 0.1667,
+
+    "supertrend_enabled": true,
+    "supertrend_weight": 0.1667,
+
+    "stop_loss_atr": 1.5,
+    "take_profit_atr": 2.5
+  },
+  "NVDA": {
+    "strategy": "ensemble",
+    "initial_cash": 17500.0,
+    "enabled": true,
+    "interval_minutes": 3,
+
+    "ema_crossover_enabled": true,
+    "ema_crossover_weight": 0.1667,
+
+    "macd_enabled": true,
+    "macd_weight": 0.1667,
+
+    "rsi_enabled": true,
+    "rsi_weight": 0.1667,
+
+    "bollinger_enabled": true,
+    "bollinger_weight": 0.1667,
+
+    "adx_di_enabled": true,
+    "adx_di_weight": 0.1667,
+
+    "supertrend_enabled": true,
+    "supertrend_weight": 0.1667,
+
+    "stop_loss_atr": 1.5,
+    "take_profit_atr": 2.5
+  },
+  "COIN": {
+    "strategy": "ensemble",
+    "initial_cash": 17500.0,
+    "enabled": true,
+    "interval_minutes": 3,
+
+    "ema_crossover_enabled": true,
+    "ema_crossover_weight": 0.1667,
+
+    "macd_enabled": true,
+    "macd_weight": 0.1667,
+
+    "rsi_enabled": true,
+    "rsi_weight": 0.1667,
+
+    "bollinger_enabled": true,
+    "bollinger_weight": 0.1667,
+
+    "adx_di_enabled": true,
+    "adx_di_weight": 0.1667,
+
+    "supertrend_enabled": true,
+    "supertrend_weight": 0.1667,
+
+    "stop_loss_atr": 1.5,
+    "take_profit_atr": 2.5
+  },
+  "PLTR": {
+    "strategy": "ensemble",
+    "initial_cash": 17500.0,
+    "enabled": true,
+    "interval_minutes": 3,
+
+    "ema_crossover_enabled": true,
+    "ema_crossover_weight": 0.1667,
+
+    "macd_enabled": true,
+    "macd_weight": 0.1667,
+
+    "rsi_enabled": true,
+    "rsi_weight": 0.1667,
+
+    "bollinger_enabled": true,
+    "bollinger_weight": 0.1667,
+
+    "adx_di_enabled": true,
+    "adx_di_weight": 0.1667,
+
+    "supertrend_enabled": true,
+    "supertrend_weight": 0.1667,
+
+    "stop_loss_atr": 1.5,
+    "take_profit_atr": 2.5
+  }
+}

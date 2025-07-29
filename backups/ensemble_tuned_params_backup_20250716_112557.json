@@ -1,0 +1,46 @@
+{
+  "TSLA": {
+    "strategy": "ema_crossover",
+    "initial_cash": 17500.0,
+    "enabled": true,
+    "interval_minutes": 3,
+    "fast_ema": 17,
+    "slow_ema": 73
+  },
+  "NVDA": {
+    "macd": 0.1667,
+    "rsi": 0.1667,
+    "bollinger": 0.1667,
+    "ema_crossover": 0.1667,
+    "adx_di": 0.1667,
+    "supertrend": 0.1667,
+    "strategy": "ensemble",
+    "initial_cash": 17500.0,
+    "enabled": true,
+    "interval_minutes": 3
+  },
+  "COIN": {
+    "macd": 0.1667,
+    "rsi": 0.1667,
+    "bollinger": 0.1667,
+    "ema_crossover": 0.1667,
+    "adx_di": 0.1667,
+    "supertrend": 0.1667,
+    "strategy": "ensemble",
+    "initial_cash": 17500.0,
+    "enabled": true,
+    "interval_minutes": 3
+  },
+  "PLTR": {
+    "macd": 0.1667,
+    "rsi": 0.1667,
+    "bollinger": 0.1667,
+    "ema_crossover": 0.1667,
+    "adx_di": 0.1667,
+    "supertrend": 0.1667,
+    "strategy": "ensemble",
+    "initial_cash": 17500.0,
+    "enabled": true,
+    "interval_minutes": 3
+  }
+}

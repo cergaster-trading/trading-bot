@@ -1,0 +1,274 @@
+{
+  "TSLA": {
+    "strategies": [
+      {
+        "strategy": "ema_crossover",
+        "params": {
+          "crossover_ema_fast": 11,
+          "crossover_ema_slow": 35
+        },
+        "weight": 0.5888619762497155
+      },
+      {
+        "strategy": "rsi",
+        "params": {
+          "rsi_period": 20,
+          "threshold_low": 24,
+          "threshold_high": 74
+        },
+        "weight": 0.6643997234962079
+      },
+      {
+        "strategy": "macd",
+        "params": {
+          "fast_period": 6,
+          "slow_period": 37,
+          "signal_period": 9
+        },
+        "weight": 0.21390201729617847
+      },
+      {
+        "strategy": "bollinger",
+        "params": {
+          "window": 15,
+          "num_std": 1.7118057478503492
+        },
+        "weight": 0.42761109442414647
+      },
+      {
+        "strategy": "supertrend",
+        "params": {
+          "supertrend_atr_period": 13,
+          "supertrend_multiplier": 1.8449112673368004
+        },
+        "weight": 0.7509506826577512
+      },
+      {
+        "strategy": "adx_di",
+        "params": {},
+        "weight": 0.39612267590328815
+      },
+      {
+        "strategy": "stochastic",
+        "params": {
+          "k_period": 16,
+          "d_period": 5,
+          "lower_bound": 20,
+          "upper_bound": 77
+        },
+        "weight": 0.7044034886826885
+      },
+      {
+        "strategy": "sma_rsi",
+        "params": {},
+        "weight": 0.5133718314238082
+      }
+    ],
+    "sl_multiplier": 2.641438851527924,
+    "tp_multiplier": 2.122869456440473
+  },
+  "NVDA": {
+    "strategies": [
+      {
+        "strategy": "ema_crossover",
+        "params": {
+          "crossover_ema_fast": 11,
+          "crossover_ema_slow": 38
+        },
+        "weight": 0.11511048917633371
+      },
+      {
+        "strategy": "rsi",
+        "params": {
+          "rsi_period": 7,
+          "threshold_low": 30,
+          "threshold_high": 66
+        },
+        "weight": 0.68790196169999
+      },
+      {
+        "strategy": "macd",
+        "params": {
+          "fast_period": 9,
+          "slow_period": 22,
+          "signal_period": 10
+        },
+        "weight": 0.5894703366862268
+      },
+      {
+        "strategy": "bollinger",
+        "params": {
+          "window": 19,
+          "num_std": 2.4537324590706175
+        },
+        "weight": 0.5036619502990939
+      },
+      {
+        "strategy": "supertrend",
+        "params": {
+          "supertrend_atr_period": 18,
+          "supertrend_multiplier": 3.009462793928215
+        },
+        "weight": 0.35016107608762914
+      },
+      {
+        "strategy": "adx_di",
+        "params": {},
+        "weight": 0.5138761085354953
+      },
+      {
+        "strategy": "stochastic",
+        "params": {
+          "k_period": 16,
+          "d_period": 3,
+          "lower_bound": 24,
+          "upper_bound": 80
+        },
+        "weight": 0.1866502721488223
+      },
+      {
+        "strategy": "sma_rsi",
+        "params": {},
+        "weight": 0.47028867186173146
+      }
+    ],
+    "sl_multiplier": 1.4532359285387713,
+    "tp_multiplier": 2.977014037046553
+  },
+  "PLTR": {
+    "strategies": [
+      {
+        "strategy": "ema_crossover",
+        "params": {
+          "crossover_ema_fast": 7,
+          "crossover_ema_slow": 42
+        },
+        "weight": 0.6054678545885201
+      },
+      {
+        "strategy": "rsi",
+        "params": {
+          "rsi_period": 5,
+          "threshold_low": 12,
+          "threshold_high": 68
+        },
+        "weight": 0.8710526899756214
+      },
+      {
+        "strategy": "macd",
+        "params": {
+          "fast_period": 10,
+          "slow_period": 28,
+          "signal_period": 12
+        },
+        "weight": 0.6030514691980204
+      },
+      {
+        "strategy": "bollinger",
+        "params": {
+          "window": 10,
+          "num_std": 2.21717582770823
+        },
+        "weight": 0.5316938430374648
+      },
+      {
+        "strategy": "supertrend",
+        "params": {
+          "supertrend_atr_period": 16,
+          "supertrend_multiplier": 2.9638620811086254
+        },
+        "weight": 0.791017663522752
+      },
+      {
+        "strategy": "adx_di",
+        "params": {},
+        "weight": 0.785907214218366
+      },
+      {
+        "strategy": "stochastic",
+        "params": {
+          "k_period": 30,
+          "d_period": 10,
+          "lower_bound": 23,
+          "upper_bound": 77
+        },
+        "weight": 0.6534838627861451
+      },
+      {
+        "strategy": "sma_rsi",
+        "params": {},
+        "weight": 0.07878810027925898
+      }
+    ],
+    "sl_multiplier": 2.620490182125864,
+    "tp_multiplier": 1.2618523578261878
+  },
+  "COIN": {
+    "strategies": [
+      {
+        "strategy": "ema_crossover",
+        "params": {
+          "crossover_ema_fast": 6,
+          "crossover_ema_slow": 29
+        },
+        "weight": 0.4916422339570633
+      },
+      {
+        "strategy": "rsi",
+        "params": {
+          "rsi_period": 8,
+          "threshold_low": 11,
+          "threshold_high": 73
+        },
+        "weight": 0.006528141800751341
+      },
+      {
+        "strategy": "macd",
+        "params": {
+          "fast_period": 7,
+          "slow_period": 40,
+          "signal_period": 12
+        },
+        "weight": 0.5440245485083737
+      },
+      {
+        "strategy": "bollinger",
+        "params": {
+          "window": 19,
+          "num_std": 3.0920135957224044
+        },
+        "weight": 0.9060530432600459
+      },
+      {
+        "strategy": "supertrend",
+        "params": {
+          "supertrend_atr_period": 17,
+          "supertrend_multiplier": 1.6858784709073187
+        },
+        "weight": 0.7491648669402182
+      },
+      {
+        "strategy": "adx_di",
+        "params": {},
+        "weight": 0.7055888368568173
+      },
+      {
+        "strategy": "stochastic",
+        "params": {
+          "k_period": 28,
+          "d_period": 5,
+          "lower_bound": 23,
+          "upper_bound": 73
+        },
+        "weight": 0.9378190354462196
+      },
+      {
+        "strategy": "sma_rsi",
+        "params": {},
+        "weight": 0.5640856128283929
+      }
+    ],
+    "sl_multiplier": 1.3857697818976338,
+    "tp_multiplier": 1.996548930997006
+  }
+}
